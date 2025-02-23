@@ -27,8 +27,8 @@ const submitForm = async (event) => {
       {
         method: "POST",
         headers: {
-          Authorization: 'Bearer eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3hhdGEuaW8iLCJzdWIiOiJ1c3JfMzdxaTBydW1nbDFkcmJqODV2MjU3azlnaG8iLCJleHAiOjE3NDAzMzgyMzksImlhdCI6MTc0MDMzNzMzOSwid29ya3NwYWNlcyI6eyI2YW5vY2siOnsicm9sZSI6Im93bmVyIn19LCJlbWFpbCI6ImVwaWNhcHBjb2RlQGdtYWlsLmNvbSIsIkZpbGVTdG9yYWdlSUQiOiIifQ.kazrrZsQzqG1BqJXMr6QOw26Xu1vrYMlDIECPVnQKRcnOWM3UE0fM5dO4e2p8WgJSqi23HQZpL3yaUtZ9qmuDw',
-            'Content-Type': 'application/json'
+          Authorization: 'Bearer eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3hhdGEuaW8iLCJzdWIiOiJ1c3JfMzdxaTBydW1nbDFkcmJqODV2MjU3azlnaG8iLCJleHAiOjE3NDAzNTUyMDcsImlhdCI6MTc0MDM1NDMwNywid29ya3NwYWNlcyI6eyI2YW5vY2siOnsicm9sZSI6Im93bmVyIn19LCJlbWFpbCI6ImVwaWNhcHBjb2RlQGdtYWlsLmNvbSIsIkZpbGVTdG9yYWdlSUQiOiIifQ.iRDTC7VOAEIe_nlresjGNiWtM0DZyQagzqpXIeNtUkKmoo8WtrHYYImhGeVejYiHrgC_wcOmMfQ1gU7DHapwDA',
+          'Content-Type': 'application/json'
         },
         body: JSON.stringify(data),
       }
