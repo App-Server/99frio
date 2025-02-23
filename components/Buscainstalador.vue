@@ -27,7 +27,7 @@
                         <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
                         <div class="card-body" style="padding: 15px;">
                             <h5 style="color: #0059FF;">Não deixe o calor te pegar desprevenido!</h5>
-                            <p> Explore o ACMarketplace hoje mesmo e encontre o instalador perfeito para você.</p>
+                            <p> Explore o Busca instalador hoje mesmo e encontre o instalador perfeito para você.</p>
                         </div>
                         </div>
                     </div>
