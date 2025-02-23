@@ -2,7 +2,7 @@
     <div>
         <nav class="navbar bg-body-tertiary">
             <div class="container">
-                <a class="navbar-brand" href="#"><strong style="color: #0059FF;"><h3> Buscar Instalador </h3></strong> </a>
+                <NuxtLink class="navbar-brand" to="/"><strong style="color: #0059FF;"><h3> Buscar Instalador </h3></strong> </NuxtLink>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -17,7 +17,6 @@
                             <NuxtLink to="/" class="nav-link">Cadastro</NuxtLink>
                         </li>
                         <li class="nav-item">
-                            <!-- <a class="nav-link" href="#">Cadastro do instalador</a> -->
                             <NuxtLink to="/pessoa-fisica" class="nav-link">Cadastro Pessoa Física</NuxtLink>
                         </li>
                         <li class="nav-item">
@@ -25,6 +24,9 @@
                         </li>
                         <li class="nav-item">
                             <NuxtLink to="#" class="nav-link">Suporte</NuxtLink>
+                        </li>
+                        <li class="nav-item">
+                            <NuxtLink to="#" class="nav-link">Calculadora de BTUs</NuxtLink>
                         </li>
                     </ul>
                 </div>
