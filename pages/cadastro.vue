@@ -2,7 +2,7 @@
     <div>
         <div class="container" style="margin-top: 50px;">
             <div class="alert alert-primary" role="alert">
-                A simple primary alert—check it out!
+                Faça o seu cadastro e aparecer para seus clientes.
             </div><br>
             <div class="row">
                 <div class="col-sm-6 mb-3 mb-sm-0">
