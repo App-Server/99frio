@@ -28,7 +28,7 @@
         <!--  -->
         </div>
         <div class="responsive">
-            <div class="container" style="margin-top: 40px;">
+            <div class="container" style="margin-top: 30px;">
                 <div class="row">
                     <div class="col-sm-7 mb-3 mb-sm-0">
                         <NuxtLink class="navbar-brand" to="/"><strong style="color: #0059FF;"><h3> Buscar Instalador </h3></strong> </NuxtLink>
