@@ -6,15 +6,17 @@
                     <div class="col-sm-6 mb-3 mb-sm-0">
                         <div class="card-body">
                             <h3 class="card-title">
-                                <strong style="color: #0059FF;">Bem-vindo ao Buscar Instalador:</strong> 
-                                O seu portal para encontrar os melhores instaladores de 
+                                <strong style="color: #0059FF;">99Frio</strong> 
+                                Conectando Fabricantes, Instaladores e Clientes
                                 <strong style="color: #0059FF;">ar condicionado!</strong>
                             </h3>
                             <p style="margin-top: 30px;">
-                                Encontre profissionais confiáveis para instalar seu ar condicionado com facilidade e segurança. 
-                                No Busca Instalador, conectamos você diretamente aos especialistas em climatização da sua região.
+                                Objetivo: Criar um ecossistema onde fabricantes, instaladores e clientes possam fechar negócios de forma rápida e confiável.
                             </p>
-                            <NuxtLink to="/cadastro" class="btn btn-primary">Sou instalador e quero cadastrar</NuxtLink>
+                            <p> Uma plataforma que facilita a conexão entre usuários e profissionais especializados na instalação de ar condicionado em sua região. </p>
+                            <div class="d-grid gap-2">
+                                <NuxtLink to="/cadastro" class="btn btn-primary">Sou instalador e quero cadastrar</NuxtLink>
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-6">
