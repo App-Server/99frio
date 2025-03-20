@@ -1,77 +1,102 @@
 <template>
-    <div>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
-                <NuxtLink class="navbar-brand" to="/"><strong style="color: #0059FF;"><h2> 99Frio </h2></strong> </NuxtLink>
-                
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <!-- Logo -->
+            <NuxtLink class="navbar-brand logo" to="/">
+                <h2>99Frio</h2>
+            </NuxtLink>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" ref="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <NuxtLink class="navbar-brand" to="/" @click="closeNavbar">Home</NuxtLink>
-                        </li>
-                        <li class="nav-item">
-                            <NuxtLink class="navbar-brand" to="/cadastro" @click="closeNavbar">Cadastro</NuxtLink>
-                        </li>   
-                        <li class="nav-item">
-                            <NuxtLink class="navbar-brand" to="/" @click="closeNavbar">Suporte</NuxtLink>
-                        </li>  
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <button class="btn btn-gradient" type="submit">Cadastrar</button>
-                    </form>
-                </div>
+            <!-- Botão do menu responsivo -->
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Itens do Menu -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <NuxtLink class="nav-link underline-hover" to="/">Home</NuxtLink>
+                    </li>
+                    <li class="nav-item">
+                        <NuxtLink class="nav-link underline-hover" to="/">Cadastro</NuxtLink>
+                    </li>   
+                    <li class="nav-item">
+                        <NuxtLink class="nav-link underline-hover" to="/">Suporte</NuxtLink>
+                    </li>  
+                </ul>
+                
+                <!-- Botão Cadastrar -->
+                <button class="btn btn-gradient">Cadastrar</button>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </template>
 
-<script setup>
-import { ref } from 'vue';
-
-const navbarCollapse = ref(null);
-
-const closeNavbar = () => {
-    if (navbarCollapse.value && navbarCollapse.value.classList.contains("show")) {
-        navbarCollapse.value.classList.remove("show"); // Fecha o menu
-    }
-};
-</script>
-
 <style scoped>
-.card-custom {
-    border: none;
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-    min-height: 300px; /* Garantir uma altura mínima consistente */
+/* Navbar */
+.navbar-custom {
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
 }
 
-.card-custom:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-.card-header-custom {
-    background: linear-gradient(45deg, #d4af37, #c68e17); /* Dourado para o Plano Basic */
-    color: white;
-    text-align: center;
-    padding: 15px;
+/* Logo */
+.logo h2 {
+    color: #0059FF;
     font-weight: bold;
+    transition: 0.3s;
 }
 
+.logo:hover h2 {
+    color: #003ecb;
+}
+
+/* Links do Menu */
+.navbar-nav .nav-link {
+    font-size: 16px;
+    color: #333;
+    padding: 10px 15px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+/* Underline Animado */
+.underline-hover::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #0059FF;
+    margin-top: 4px;
+    transition: width 0.3s ease-in-out;
+}
+
+.underline-hover:hover::after {
+    width: 100%;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #0059FF;
+}
+
+/* Botão "Cadastrar" */
 .btn-gradient {
-    background: linear-gradient(45deg, #007bff, #6610f2); /* Gradiente no botão */
+    background: linear-gradient(45deg, #007bff, #6610f2);
     border: none;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 20px;
     font-size: 16px;
     border-radius: 50px;
-    transition: 0.3s;
+    transition: 0.3s ease-in-out;
 }
 
 .btn-gradient:hover {
@@ -80,19 +105,15 @@ const closeNavbar = () => {
     color: white;
 }
 
-/* Novo estilo para o botão do Plano Basic (dourado) */
-.btn-basic {
-    background: linear-gradient(45deg, #d4af37, #c68e17);
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    font-size: 16px;
-    border-radius: 50px;
-    transition: 0.3s;
-}
-
-.btn-basic:hover {
-    background: linear-gradient(45deg, #b5893f, #9c7c28);
-    transform: scale(1.05);
+/* Responsividade */
+@media (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    
+    .btn-gradient {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 </style>
