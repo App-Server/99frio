@@ -1,37 +1,45 @@
 <template>
-    <div>
-        <div class="container" style="margin-top: 30px;">
-            <h3 class="d-flex justify-content-center" style="color: #0059FF;">Recursos Principais</h3>
-            <div class="porqueescolher">
-                <div class="row" style="margin-top: 50px;">
-                    <div class="col-sm-4 mb-3 mb-sm-3">
-                        <div class="card">
-                        <div class="card-body" style="padding: 15px;">
-                            <h5 style="color: #0059FF;">Sistema de Orçamentos</h5>
-                            <br>
-                            <p> Orçamentos diretamente dos técnicos.</p>
-                        </div>
-                        </div>
+    <div class="container mt-5">
+        <h3 class="text-center text-primary">Recursos Principais</h3>
+        <div class="row mt-4">
+            <div class="col-sm-4 mb-4">
+                <div class="card custom-card">
+                    <div class="card-body p-4 text-center">
+                        <h5 class="text-primary">Sistema de Orçamentos</h5><br>
+                        <p class="mt-3">Orçamentos diretamente dos técnicos.</p>
                     </div>
-                    <div class="col-sm-4 mb-3 ">
-                        <div class="card">
-                        <div class="card-body" style="padding: 15px;">
-                            <h5 style="color: #0059FF;">Calculadora BTU Personalizada</h5>
-                            <br>
-                            <p>Ajuda na escolha do equipamento ideal.</p>
-                        </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <div class="card custom-card">
+                    <div class="card-body p-4 text-center">
+                        <h5 class="text-primary">Calculadora BTU Personalizada</h5><br>
+                        <p class="mt-3">Ajuda na escolha do equipamento ideal.</p>
                     </div>
-                    <div class="col-sm-4 ">
-                        <div class="card">
-                        <div class="card-body" style="padding: 15px;">
-                            <h5 style="color: #0059FF;"> Plano de Publicidade</h5>
-                            <p>Assinaturas fixas para maior visibilidade na plataforma</p>
-                        </div>
-                        </div>
+                </div>
+            </div>
+            <div class="col-sm-4 mb-4">
+                <div class="card custom-card">
+                    <div class="card-body p-4 text-center">
+                        <h5 class="text-primary">Plano de Publicidade</h5>
+                        <p class="mt-3">Assinaturas fixas para maior visibilidade na plataforma.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+.custom-card {
+    border: 1px solid #ddd; /* Borda sutil para destacar */
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra inicial */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra mais forte ao passar o mouse */
+}
+</style>
