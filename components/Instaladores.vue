@@ -9,7 +9,9 @@
               <p><strong>📍 Atende:</strong> {{ profissional.local }}</p>
               <p><strong>🏆 Credenciado:</strong> {{ profissional.credenciado }}</p>
               <p><strong>🔧 Serviços:</strong> {{ profissional.servicos }}</p>
-              <NuxtLink :to="profissional.link" class="btn btn-gradient mt-3">Contato</NuxtLink>
+              <div class="d-grid gap-2">
+                <NuxtLink :to="profissional.link" class="btn btn-gradient mt-3">Contato</NuxtLink>
+              </div>
             </div>
           </div>
         </div>
@@ -23,7 +25,7 @@
       return {
         profissionais: [
           { nome: "Kaique Rodrigo Guilherme Freitas", local: "Aracaju - SE", credenciado: "Gree", servicos: "Instalação e manutenção de ar condicionado", link: "/kaique" },
-          { nome: "Raimundo Refrigeração", local: "São Paulo - SP", credenciado: "TCL", servicos: "Instalação e manutenção de ar condicionado", link: "#" },
+          { nome: "Raimundo Refrigeração", local: "Recife - PE", credenciado: "TCL", servicos: "Instalação e manutenção de ar condicionado", link: "/raimundo" },
           { nome: "Carlos & Pedro Climatização", local: "São Paulo - SP", credenciado: "Midea", servicos: "Instalação e manutenção de ar condicionado", link: "#" },
           { nome: "FH Climatização", local: "Minas Gerais - MG", credenciado: "Hitachi", servicos: "Instalação e manutenção de ar condicionado", link: "#" },
           { nome: "JJ Refrigeração", local: "Recife - PE", credenciado: "Agratto", servicos: "Instalação e manutenção de ar condicionado", link: "#" },

@@ -50,6 +50,7 @@
     width: 100%;
     padding-bottom: 56.25%; /* Proporção 16:9 */
     height: 0;
+   
 }
 
 .video-container iframe {
@@ -58,6 +59,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    border-radius: 10px;
 }
 
 .card-custom {

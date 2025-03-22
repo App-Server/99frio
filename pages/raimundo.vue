@@ -1,17 +1,17 @@
 <template>
     <div>
         <header class="bg-primary text-white text-center py-4">
-        <h1>Kaique Rodrigo Guilherme Freitas</h1>
+        <h1>Raimundo Refrigeração</h1>
         <p>⭐⭐⭐⭐⭐</p>
     </header>
     
     <div class="container my-5">
         <div class="row align-items-center">
             <div class="col-md-6">
-                <img src="https://www.easyserv.com.br/wp-content/uploads/2022/06/orcamento-instalacao-de-ar-condicionado.jpg" class="img-fluid rounded" alt="Instalação de ar-condicionado">
+                <img src="https://engehall.com.br/wp-content/uploads/2023/10/instalacao-de-ar-condicionado.webp" class="img-fluid rounded" alt="Instalação de ar-condicionado">
             </div>
             <div class="col-md-6">
-                <h3>Atende: Aracaju - SE</h3>
+                <h3>Atende: Rceife - PE</h3>
                 <p><strong>Credenciado:</strong> Gree</p>
                 <p><strong>Serviços:</strong> Instalação, manutenção e assistência técnica</p>
                 <p><strong>Emitir Nota Fiscal:</strong> Sim</p>
@@ -34,13 +34,13 @@
         <h3 class="text-center">Portfólio de Trabalhos</h3>
         <div class="row text-center">
             <div class="col-md-4">
-                <img src="https://guia.ar/wp-content/uploads/2020/12/Benefits-of-Hiring-a-Professional-for-AC-Repair-1024x683.jpg" class="img-fluid rounded mb-3" alt="Trabalho realizado">
+                <img src="https://maisar.com.br/wp-content/uploads/2024/11/instalacao-de-ar-condicionado-em-curitiba.jpg" class="img-fluid rounded mb-3" alt="Trabalho realizado">
             </div>
             <div class="col-md-4">
-                <img src="https://www.guide-climatisation.com/wp-content/uploads/2021/02/installation-de-climatisation-5.webp" class="img-fluid rounded mb-3" alt="Instalação de ar-condicionado">
+                <img src="https://cptstatic.s3.amazonaws.com/imagens/enviadas/materias/materia29004/instalacao-de-ar-condicionado-cpt.jpg" class="img-fluid rounded mb-3" alt="Instalação de ar-condicionado">
             </div>
             <div class="col-md-4">
-                <img src="https://www.dreamlandsdesign.com/wp-content/uploads/2018/07/Everything-You-Need-to-Know-About-Air-Conditioning-Installation-740x493.jpg" class="img-fluid rounded mb-3" alt="Manutenção de ar-condicionado">
+                <img src="https://sienge.com.br/wp-content/uploads/2024/12/ponto-de-ar-condicionado.jpg" class="img-fluid rounded mb-3" alt="Manutenção de ar-condicionado">
             </div>
         </div>
     </div>
