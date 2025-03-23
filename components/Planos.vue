@@ -6,9 +6,9 @@
                 <thead>
                     <tr>
                         <th>Recurso / Plano</th>
-                        <th class="basic">Basic 🟢</th>
-                        <th class="vip">Vip 🔵</th>
-                        <th class="premium">Premium 🔴</th>
+                        <th class="basic">Basic </th>
+                        <th class="vip">Vip </th>
+                        <th class="premium">Premium </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -96,15 +96,15 @@
 
 /* Coloração dos planos */
 .custom-table .basic {
-    background: rgba(0, 255, 0, 0.2);
+    background: rgb(255, 255, 255);
 }
 
 .custom-table .vip {
-    background: rgba(0, 85, 255, 0.2);
+    background: rgb(255, 255, 255);
 }
 
 .custom-table .premium {
-    background: rgba(255, 0, 0, 0.2);
+    background: rgb(255, 255, 255);
 }
 
 /* Linhas da tabela */
