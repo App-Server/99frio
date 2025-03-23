@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
             <!-- Logo -->
-            <NuxtLink class="navbar-brand logo" href="https://99frio.srv757991.hstgr.cloud/cadastro">
+            <NuxtLink class="navbar-brand logo" to="/">
                 <h2>99Frio</h2>
             </NuxtLink>
 
