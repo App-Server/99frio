@@ -15,7 +15,7 @@
                             </p>
                             <p> Uma plataforma que facilita a conexão entre usuários e profissionais especializados na instalação de ar condicionado em sua região. </p>
                             <div class="d-grid gap-2">
-                                <NuxtLink to="/cadastro" class="btn btn-gradient">Sou instalador e quero cadastrar</NuxtLink>
+                                <a href="https://99frio.srv757991.hstgr.cloud/cadastro" class="btn btn-gradient">Sou instalador e quero cadastrar</a>
                             </div>
                         </div>
                     </div>

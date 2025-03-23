@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
             <!-- Logo -->
-            <NuxtLink class="navbar-brand logo" to="/">
+            <NuxtLink class="navbar-brand logo" href="https://99frio.srv757991.hstgr.cloud/cadastro">
                 <h2>99Frio</h2>
             </NuxtLink>
 
@@ -34,7 +34,7 @@
                 </ul>
                 
                 <!-- Botão Cadastrar -->
-                <NuxtLink to="/cadastro" class="btn btn-gradient">Cadastrar</NuxtLink>
+                <a href="https://99frio.srv757991.hstgr.cloud/cadastro" class="btn btn-gradient">Cadastrar</a>
             </div>
         </div>
     </nav>
