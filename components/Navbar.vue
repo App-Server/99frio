@@ -29,6 +29,9 @@
                         <a class="nav-link underline-hover" href="https://99frio.srv757991.hstgr.cloud/cadastro">Cadastro</a>
                     </li>   
                     <li class="nav-item">
+                        <NuxtLink class="nav-link underline-hover" to="/treinamento">Treinamaneto</NuxtLink>
+                    </li>  
+                    <li class="nav-item">
                         <NuxtLink class="nav-link underline-hover" to="/">Suporte</NuxtLink>
                     </li>  
                 </ul>
