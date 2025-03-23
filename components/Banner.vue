@@ -15,7 +15,7 @@
                             </p>
                             <p> Uma plataforma que facilita a conexão entre usuários e profissionais especializados na instalação de ar condicionado em sua região. </p>
                             <div class="d-grid gap-2">
-                                <NuxtLink to="#" class="btn btn-gradient">Sou instalador e quero cadastrar</NuxtLink>
+                                <NuxtLink to="/cadastro" class="btn btn-gradient">Sou instalador e quero cadastrar</NuxtLink>
                             </div>
                         </div>
                     </div>

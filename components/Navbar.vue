@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-custom">
         <div class="container">
             <!-- Logo -->
-            <NuxtLink class="navbar-brand logo" to="/">
+            <NuxtLink class="navbar-brand logo" to="/cadastro">
                 <h2>99Frio</h2>
             </NuxtLink>
 
@@ -26,7 +26,7 @@
                         <NuxtLink class="nav-link underline-hover" to="/">Home</NuxtLink>
                     </li>
                     <li class="nav-item">
-                        <NuxtLink class="nav-link underline-hover" to="/">Cadastro</NuxtLink>
+                        <NuxtLink class="nav-link underline-hover" to="/cadastro">Cadastro</NuxtLink>
                     </li>   
                     <li class="nav-item">
                         <NuxtLink class="nav-link underline-hover" to="/">Suporte</NuxtLink>
