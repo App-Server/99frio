@@ -17,20 +17,19 @@
                 <p><strong>Emitir Nota Fiscal:</strong> Sim</p>
                 <p><strong>Tipo de atendimento:</strong> Residencial e Empresarial</p>
                 <p><strong>Endereço:</strong> R. Campo do Brito, 331 - 13 de Julho, Aracaju - SE</p>
+                <div class="container my-4">
+                    <h3>Entre em Contato</h3>
+                    <div class="d-flex align-items-start gap-3">
+                        <a href="#" class="btn btn-gradient">WhatsApp</a>
+                        <a href="#" class="btn btn-gradient">Instagram</a>
+                        <a href="#" class="btn btn-gradient">WebSite</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    
-    <div class="container text-center my-4">
-        <h3>Entre em Contato</h3>
-        <div class="d-flex justify-content-center gap-3">
-            <a href="#" class="btn btn-gradient">WhatsApp</a>
-            <a href="#" class="btn btn-gradient">Instagram</a>
-            <a href="#" class="btn btn-gradient">Visitar Site</a>
-        </div>
-    </div>
-
-    <div class="container my-5">
+ 
+    <!-- <div class="container my-5">
         <h3 class="text-center">Portfólio de Trabalhos</h3>
         <div class="row text-center">
             <div class="col-md-4">
@@ -43,7 +42,7 @@
                 <img src="https://sienge.com.br/wp-content/uploads/2024/12/ponto-de-ar-condicionado.jpg" class="img-fluid rounded mb-3" alt="Manutenção de ar-condicionado">
             </div>
         </div>
-    </div>
+    </div> -->
         <Footer />
     </div>
 </template>
